@@ -27,8 +27,9 @@ url: "cslhegedus.github.io/" # the base hostname & protocol for your site, e.g. 
 twitter_username: 
 github_username:  CsLHegedus
 
+# Remove minima theme, as it is a regular theme from now
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
