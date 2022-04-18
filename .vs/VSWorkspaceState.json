@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_includes",
+    "\\_posts"
   ],
+  "SelectedNode": "\\about.markdown",
   "PreviewInSolutionExplorer": false
 }
