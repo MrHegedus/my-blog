@@ -21,11 +21,17 @@
 title: Machine learning with HC
 email: machine.learning.with.hc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my blog site.
+  I'm Csaba Lajos Hegedus and I created this blog to share my experience with machine learning.
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "cslhegedus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  CsLHegedus
+
+# field that the minima uses, but not defaulted 
+author: Csaba Lajos Hegedus
+
+# new fields not defaulted with jekyll -new minima ignore_theme_config: 
+copyright: Csaba Lajos Hegedus
 
 # Remove minima theme, as it is a regular theme from now
 # Build settings
