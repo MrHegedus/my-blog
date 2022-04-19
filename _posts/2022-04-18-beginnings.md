@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Beginnings"
+title:  "How did I start"
 date:   2022-04-18 20:24:00 +0200
 categories: posts
 ---
