@@ -30,10 +30,15 @@ I don’t really use Jupiter notebooks anymore, still many other notebooks are b
  So I had the learning environment setup, next was some theory (Actually I don’t remember the order of these sections very well, anyway…). You can find the article here. The more important one was a 6-step framework for machine learning modelling with some extra:
 
  * Problem definition: can you even define your problem as a machine learning task, or something simpler solution, like a hard-coded decision tree is fine?
+ 
  * Data: what kind data is available, does it match with the problem, what kind of insight can I get with i.e. domain knowledge, is it supervised/unsupervised problem, assuming first, is it regression or classification, for more search for (early data exploration or EDA)
+ 
  * Evaluation: how do you define success, what kind of loss function describes the best that definition?
+ 
  * Features: What parts of data do I need? Can I use all or curse of dimensionality screws me. Do I need something like PCA (or a more advanced method) to reduce dimensionality? Can I combine feature to define better ones? (Like instead of some data in x, y coordinate system polar would be more meaningful for the model.)
+ 
  * Models: what model do I need? (scikit-learn cheat sheet), how does it compare to other models in accuracy, how long it takes to run the “learning” how fast can I do a prediction?
+ 
  * Experimentation: What should I try out? Do I get the desired i.e. accuracy results? Can I verify those results with checking actual predictions?
 
 Another important part was the classification of the problems, just some example: 
@@ -64,9 +69,13 @@ You can create a nice pipeline, or just use its column transformer to do many st
 
 ## Finally modelling 
 
-After the tasks above, it was time for the “end to end” examples. Everything from the data preparation, modeling, evaluation in one. One regression problem and one classification. Majority of the work was the preparation of the data, at first with pandas, later with scikit-learn, after that visualize, plot loss curves with matplotlib, evaluate the result. I’m not sure, but I think that was the time when I learned about pipelines, a way to prepare similar data easily. Next I picked some models and tried out them. For details, check out the course material [here](). 
+After the tasks above, it was time for the “end to end” examples. Everything from the data preparation, modeling, evaluation in one. One regression problem and one classification. Majority of the work was the preparation of the data, at first with pandas, later with scikit-learn, after that visualize, plot loss curves with matplotlib, evaluate the result. 
+
+I’m not sure, but I think that was the time when I learned about pipelines, a way to prepare similar data easily. Next I picked some models and tried out them. For details, check out the course material [here](). 
 
 That was the end for structured data models, then unstructured data came. It was a transfer learning example for images. That tutorial was very different from the others, it came from nowhere. It was interesting, still, I didn’t see how I could continue from there. 
 
 ## Summary 
-I was quite satisfied with the course I picked, but the machine learning had larger emphasis on data preparations, feature crafting, “handcrafting”, a common pattern with smaller datasets. I was more interested in the modelling, especially the deep learning part. It seemed more experimental, more challenging. Later I found PyTorch codes that made machine learning problems very easy with reports and everything. Things I wrote by hand, so I wanted to go for image processing, something that I was interested since the university. 
+I was quite satisfied with the course I picked, but the machine learning had larger emphasis on data preparations, feature crafting, “handcrafting”, a common pattern with smaller datasets. 
+I was more interested in the modelling, especially the deep learning part. 
+It seemed more experimental, more challenging. Later I found PyTorch codes that made machine learning problems very easy with reports and everything. Things I wrote by hand, so I wanted to go for image processing, something that I was interested since the university. 
