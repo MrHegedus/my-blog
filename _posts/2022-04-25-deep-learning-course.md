@@ -8,19 +8,24 @@ categories: posts
 ## Deep learning course
  
 So there was some break after the first course, I wanted to learn about TensorFlow, a package for machine learning, a big one. It was a bit too big. I tried some tutorials, but I was lost… 
+
 Right timing, mrdbourke started a new TensorFlow course. It was still in progress, but he was kind to share it on his GitHub. I went through them, as they were done. At the ending something appeared that made me curious. A certificate about deep learning models (well, TensorFlow). Don’t get me wrong, I’m not a big fan of certificates, still it was something to make my results real. I had some break after I went through the beta version of the course, later I restarted the course to get a better grasp of it. 
+
 Learning from the machine learning projects’ challenges, this time instead learning the code, I started a small github project, to have the useful part of the code, some examples at one place [here]( https://github.com/CsLHegedus/Deep-learning-projects). It grew quite large with examples for subtasks, even with that I stopped doing it at the end of the transfer learning notebook. Why? Because natural language processing (nlp) and time series forecasting lessons were mostly just the re-use of previously introduced layers, techniques. On the other hand some really concept were detailed there.
 ## Let’s summarize the course. 
 
 Disclaimer, I can’t really remember the order of these point exactly, I had to look them up.
 ## Warm-up tensors and fully connected (dense layer only) model
 
-Before anything there was a refresher about tensors, shapes, dimension, the basics. It has begun with a single cell/unit/neuron, it wasn’t a deep learning model, just linear regression. I learned (again) about loss functions, optimizers, loss graphs. I said hello to some old friends, like Pandas, Matplotlib, Numpy, scikit-learn. Due the computational requirements, I learned to use Google Colab, that was basically the Jupiter Notebook with extra goodies (it offers free cpu and gpu time for training). 
+Before anything there was a refresher about tensors, shapes, dimension, the basics. It has begun with a single cell/unit/neuron, it wasn’t a deep learning model, just linear regression. I learned (again) about loss functions, optimizers, loss graphs. I said hello to some old friends, like Pandas, Matplotlib, Numpy, scikit-learn. Due the computational requirements, I learned to use Google Colab, that was basically the Jupiter Notebook with extra goodies (it offers free cpu and gpu time for training).  
+
 The first deep model only had two layers, it was a simple Sequential model. The model complexity was a gradually building up, more cells, more fully connected/ dense layers, nonlinearity, shapes and others, I really liked how I built more and more complex models. First toy data sets, MNIST set, a prepared structured dataset. There was a table of more important hyperparameters for problem classes, quite useful as beginner. And a video [course](https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnjKP3FqW3Sk&feature=youtu.be) for the theoretical background, just enough to keep going. 
 ## Convolution neural networks with data augmentation 
 
 How do you filter out important information of the pixels of an image? A new layer, called convolution, came in the picture. What it does (hint it emphasizes certain features, like vertical lines with a vertical edge detector), its more important parameters, like number of filters, strides, kernel_size. Another one called MaxPooling (it simply picks the most important features of the subarray, check this for the [details]( https://poloclub.github.io/cnn-explainer/)). 
+
 The first pattern, Conv2D, Conv2D, MaxPooling, repeat. The first architecture, vgg16. It wasn’t much more than using the pattern I mentioned before, reshaping the output matrix into a vector with a Flatten layer, toss a dense layer at the end of it to get the output result. A nice simple model that worked on actual images. Not very well, but it worked.
+
 How to improve it? Data augmentation is one way. Not all images are perfect shots, angles, sharpness, zoom range can vary. If your production data means that people shoot pictures you better teach your model to handle it to some extent. How? Modify your data with random rotations, cropping, zooming, flips, just to name a few. Here my best guess is that you use what you expect from the user, what sounds an awful idea if I think about it as an engineer student. 
 ## Transfer learning 
 
@@ -32,6 +37,7 @@ At first,there was the “as is” method, as mrdbourke called it. You just use 
 
 At the second, there was the feature extraction. As an analogy, you want to decide, whether an image shows an orange or not. You could use a model that can recognize 1000 classes (oranges, apples, peaches…) to replace its final layer, so its only output is orange/ no orange. With other words it works well, if at least a subset of the data the model is very similar to yours, as above it’s a good way to save on bills that way. Also, you only need to train that last one or two dense (fully connected) layers.
 It was the time to learn about callbacks, like TensorBoard to track your experiments, checkpoints, to save your model (actually only the weights, biases) while you train it, and early stopping.
+
 One thing I missed was the two types of how can you use transfer learning in tensorflow. You can use tensorflow.keras.apllications, it’s literally inbuilt, very easy to use. On the other hand, the number of models is rather limited. Or you can use TensorflowHub, where you can find a much greater number of models. 
 ## Fine-tuning
 	
@@ -40,11 +46,13 @@ The solution is compromise, you can re-train some layers of the pre-trained mode
 ## Scaling and optimization
 
 The last notebook was about the scaling of experiments. Let’s say you want to solve a multi class classification problem, like is there a cat, a dog, orange or another 497 types of things on the image, you have 1000 example per type (class). Let’s assume that only one of these can appear at once. 
+
 First experiment: simplify the problem to one versus rest binary classification, try out a few classes with 1% of the examples. Use 10% of the classes, 1% data. 10% of the classes, 10% of the data. All classes 10% data. Final experiment with all classes and examples. Try out many things in small, drop the worse, narrow the number of possibilities, without guesses or use of “experience”. Not a bad method, still, I’m not sure that it works with short deadlines. With code re-usage, it probably does.
+
 Up until now, it wasn’t a big issue if the model training wasn’t too fast. Let’s go through some techniques. 
-Apply functions on the data with map() to parallelize, ie. data preparation.
-Use batches.
-Use prefetch to preprocess data on multiple CPUs for better utilization of the GPU.
+* Apply functions on the data with map() to parallelize, ie. data preparation.
+* Use batches.
+* Use prefetch to preprocess data on multiple CPUs for better utilization of the GPU.
 You can find the whole list [here]( https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/07_food_vision_milestone_project_1.ipynb)
 This part was the most enjoyable to me, next was natural language processing, oh dear...
 ## Natural language processing
@@ -54,6 +62,7 @@ Oh, about one hot encoding. So you have a corpus ( all your text) you split it i
 ## Tokenization and embedding
 
 Word tokenization is a technique, where you say right, turn words into numbers, almost like in one hot encoding, instead here you say „apple is yummy” -> {1, 2, 3} „orange is yummy” -> {4, 2, 3}. Another important idea here is that you limit the number of words by the size of your vocab. Least common elements gets the identifier out of vocabulary ( OOV). Of course, you can do tokenization with characters too, but later about those.
+
 So the text is in some form of numerical data, still not ready to use yet. In the second step, you should turn those into vectors. Similar words have similar vectors. Without details, you can train this layers, and yes, just like at images you can use pre-trained embeddings (actually this is just a few trained fully connected layer with a new name). Neat, isn’t it?
 ## 1D Conv neural network 
 
