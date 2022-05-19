@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "TensorFlow certificate"
+date:   2022-05-19 19:09:00 +0200
+categories: posts
+---
+
 ## TensorFlow certificate
 
 I went through again the now finalized version of the Mrdbourke deep learning course. The old bad habit of memorization came back, I even though at the beginning I was quite confident I that I don’t need to do anything by heart with using the documentation. Anyway, I had the code printed out, and when I had time I tried to figure out the code, what does what, main steps and such on paper.
