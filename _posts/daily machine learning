@@ -1,0 +1,42 @@
+So I saw a good idea on youtube, a challenge to learn machine learning for 66 consecutive days, just for 5 minutes.  
+
+Before I get into that. I mentioned a course before. 
+Well, the course had some advices about what kind of 
+people are good as data analyst, statistian and machine 
+learning engineer. I still think that the third option 
+fits me the best. But now I'm without courses. I could 
+go for the overlapping parts, but I focus on making my 
+own "course".  
+
+Anyway, first day, I'll write hopefully everyday for a while from now on.  
+
+## Day 1 - Humble beginnings, or re-re-re-re-opening 
+I picked up again Andriy Burkov'S "Machine Learning Engineering" book. 
+I had some experience with deeplearning and his book is kind of a 
+toolbox.  It has a simple, still very useful framework, it's full of 
+good practice advices and it covers the full life cycle of a model to
+give some perspective. 
+It also has a nice glossary, to refresh vocab of data science.  
+
+So to quote some ideas from the book , the part of creating a product: 
+in short decision making, product management 
+data engineering 
+prototype phase ml engineering 
+statistics 
+production phase ml engineering
+reliability engineering  
+
+Other than that I was brainstorming about the content of my course. I'll use mrdbourke's course as basis and extend it here and there 
+This is just a draft, sort of  
+Stage 1
+dnn models - simple linear regression, parts of the model in python, tensorflow, pytorch, first iteration of the workflow,  
+different activation functions, non-linearity, first helper fuctions? python, tensorflow, pytorch, use of documentation 
+cnn models, parts, first famous architectures (alexnet, vgg16) lstm, gru, etc. use cases some paper here?   
+transfer learning - feature extraction, transfer learning
+
+some full fledged papers? when use sequential api and functional api?
+
+Stage 2 deploy a model, barebone website
+Stage 3 polished, presentable website?
+Stage 4 SQL/ data lake + previous ones
+Stage 5 real life data -> database/datalake -> model -> one retraining 
