@@ -41,7 +41,7 @@ Stage 3 polished, presentable website?
 Stage 4 SQL/ data lake + previous ones
 Stage 5 real life data -> database/datalake -> model -> one retraining 
 
-# Day 2
+## Day 2
 Not much today, I read the machine learning engineering book, up to the feature crafting chapter.
 I also went through some of my old google colab projects. I aactually understood most of it!
 
@@ -54,3 +54,14 @@ Deploy the model
 SQL/ Data lake
 Some real data, I think
 
+## Day 3
+I didn't have much time today, I highlighted the more useful parts in the first 4 chap. of the ml. eng. book.
+I'll create some cheat sheets from the summaries of the book on the weekend.
+
+Other than that some details of my course.
+Stage 1: linear regression model and its parts, Tensorflow (Sequential, Functional API), Pytorch, python with numpy
+Stage 2: binary classification, tensorflow, pytorch, python
+Stage 3: multi layer dnn model, helper functions, wrapper functions
+Stage 4: problem classes, corresponding activation, loss functions
+
+I also want to clean up this post and do the formatting. As I'm done I send the posts to the blog.
