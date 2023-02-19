@@ -19,12 +19,13 @@ give some perspective.
 It also has a nice glossary, to refresh vocab of data science.  
 
 So to quote some ideas from the book , the part of creating a product: 
-in short decision making, product management 
-data engineering 
-prototype phase ml engineering 
-statistics 
-production phase ml engineering
-reliability engineering  
+in short 
+*decision making, product management 
+*data engineering 
+*prototype phase ml engineering 
+*statistics 
+*production phase ml engineering
+*reliability engineering  
 
 Other than that I was brainstorming about the content of my course. I'll use mrdbourke's course as basis and extend it here and there 
 This is just a draft, sort of  
@@ -55,13 +56,10 @@ SQL/ Data lake
 Some real data, I think
 
 ## Day 3
-I didn't have much time today, I highlighted the more useful parts in the first 4 chap. of the ml. eng. book.
+I didn't have much time today, I highlighted the more useful parts in the first four chap. of the ml. eng. book.
 I'll create some cheat sheets from the summaries of the book on the weekend.
 
-Other than that some details of my course.
-Stage 1: linear regression model and its parts, Tensorflow (Sequential, Functional API), Pytorch, python with numpy
-Stage 2: binary classification, tensorflow, pytorch, python
-Stage 3: multi layer dnn model, helper functions, wrapper functions
-Stage 4: problem classes, corresponding activation, loss functions
-
-I also want to clean up this post and do the formatting. As I'm done I send the posts to the blog.
+## Day 1
+I skipped two days, so it's day one again.
+I started to practice a bit with tensorflow's sequential api. 
+That's it for now.
