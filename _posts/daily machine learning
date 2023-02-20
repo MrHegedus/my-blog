@@ -10,6 +10,47 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
+
+
+## Day 2.2
+I spent an hour setting up obs again. My previous learning/online diary videos were quite good feedback, so in a bit different format I try that again.
+I'll make them with less talking, more like a stream. My new pc and mic is a huge help with that.
+I really need to figure out how to format these posts, before I write too much.
+
+Other than that I'll start the data analyst course again at 27th of Febr.
+My reasons are these overlapping fields with data engineering:
+* My data exploration skills are still lacking, what I can do I do too slowly.
+* My research skillset is also quite weak.
+* SQL in practice
+* Data visualization tools.
+* Professional communication.
+
+I'll spend 5 minutes with the data analyst course and 5 minutes of machine learning engineering every day from that day!
+
+In the meanwhile I plan to get to at least to the tensorflow functional APIs.
+
+## Day 2.1
+I skipped two days, so it's day one again. (Try: 2nd, day 1)
+I started to practice a bit with tensorflow's sequential api. 
+That's it for now.
+
+## Day 3
+I didn't have much time today, I highlighted the more useful parts in the first four chap. of the ml. eng. book.
+I'll create some cheat sheets from the summaries of the book on the weekend.
+
+## Day 2
+Not much today, I read the machine learning engineering book, up to the feature crafting chapter.
+I also went through some of my old google colab projects. I aactually understood most of it!
+
+Other than that I'll probably cut the chase and get a deep dive. 
+I'll go through the only scientific paper I worked before instead of creating a full fledged course. 
+The rest of the plans are the same. 
+
+Get to the point where I can re-create an architecture from a paper.
+Deploy the model
+SQL/ Data lake
+Some real data, I think
+
 ## Day 1 - Humble beginnings, or re-re-re-re-opening 
 I picked up again Andriy Burkov'S "Machine Learning Engineering" book. 
 I had some experience with deeplearning and his book is kind of a 
@@ -41,25 +82,3 @@ Stage 2 deploy a model, barebone website
 Stage 3 polished, presentable website?
 Stage 4 SQL/ data lake + previous ones
 Stage 5 real life data -> database/datalake -> model -> one retraining 
-
-## Day 2
-Not much today, I read the machine learning engineering book, up to the feature crafting chapter.
-I also went through some of my old google colab projects. I aactually understood most of it!
-
-Other than that I'll probably cut the chase and get a deep dive. 
-I'll go through the only scientific paper I worked before instead of creating a full fledged course. 
-The rest of the plans are the same. 
-
-Get to the point where I can re-create an architecture from a paper.
-Deploy the model
-SQL/ Data lake
-Some real data, I think
-
-## Day 3
-I didn't have much time today, I highlighted the more useful parts in the first four chap. of the ml. eng. book.
-I'll create some cheat sheets from the summaries of the book on the weekend.
-
-## Day 1
-I skipped two days, so it's day one again.
-I started to practice a bit with tensorflow's sequential api. 
-That's it for now.
