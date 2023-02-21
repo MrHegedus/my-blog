@@ -11,6 +11,52 @@ own "course".
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
 
+## Day 2.3
+I've been just going through another chapter for the machine learning engineering book.
+Other than that I really need some action items, to get the learning going.
+
+I talked with a few people and frankly speaking I don't really see much point in learning tensorflow's sequential API again.
+While I don't have specific problems I'll try to go with these goals:
+
+General problem statement of the first mini course:
+Learnto use tensorflow.
+Use the mlebook.com workflow until further notice.
+Use matplotlib to present your work.
+Try to focus on scalable solutions.
+
+With that out of the way
+Step one: 
+data: numpy array of numbers 
+algorithm with linear regression
+
+Step two: 
+data: boston (toy) dataset
+algorithm: logistic regression, one hot encoding
+cheatsheets: 
+problem classes
+what problems can be solved with machine learning
+activation functions, loss functions for different problem classes
+
+Step three:
+data: some kaggle classification dataset (preferably raw data)
+algorithm: fully connected neural network, adjustable num of layers, wrapper function
+basic hyper parameter tuning: grid, random search 
+
+Step four:
+data: some tf toy dataset
+algorithm: alexnet, vgg16, "toy" resnet, data  augmentation examples
+more efficient pipeline (mixed precision, gpu)
+
+Step five:
+Transfer learning, feature extraction and fine tuning.
+
+Step six:
+Model and layer subclassing.
+
+Step six:
+Deployment of model on something, probably an amazon cloud api.
+
+I'll probably extend, change these, but it should work for now. Step 1-3 is unlikely to change.
 
 ## Day 2.2
 I spent an hour setting up OBS (video recorder) again. 
