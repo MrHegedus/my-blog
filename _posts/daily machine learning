@@ -10,6 +10,11 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
+## Day 2.6
+I found out why my models didn't work. I remembered that I can just plug in 1d vector as training data. 
+It was true, but it has got updated, so I need some way to expand the dim of the data. Anyway, I just played
+with FCN models. I'll work on the mini-course tomorrow, I've got some serious backlog on the hands-on part of learning .
+
 ## Day 2.5
 Some practice with functional api, just simple models.
 
