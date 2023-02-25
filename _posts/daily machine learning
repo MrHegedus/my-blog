@@ -10,6 +10,11 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
+## Day 2.7
+I was just exploring my github today, at the bright end I found my old notes, something I'll probably use a bit. 
+Other than that I have the last chaps of the ml engineering book printed out. I'll need to get practice in my routine
+again, I'm rusty.
+
 ## Day 2.6
 I found out why my models didn't work. I remembered that I can just plug in 1d vector as training data. 
 It was true, but it has got updated, so I need some way to expand the dim of the data. Anyway, I just played
