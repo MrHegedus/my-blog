@@ -10,8 +10,13 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
+## Day 2.8
+
+I just played a bit with FCN models with adjustable number of layers. It was just the copy of the vibration sensor paper's model.
+Not much more than a for cycle in the model.
+
 ## Day 2.7
-I was just exploring my github today, at the bright end I found my old notes, something I'll probably use a bit. 
+I was just exploring my github today, I found my old notes, something I'll probably use a bit. 
 Other than that I have the last chaps of the ml engineering book printed out. I'll need to get practice in my routine
 again, I'm rusty.
 
