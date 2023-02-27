@@ -10,8 +10,12 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
-## Day 2.8
+## Trial 2, day 9
+I went back and I started to make the actual notebooks for linear and log regression. I forgot quite a bit, so I spent plenty of time
+with fixing mistakes. Anyway, first video is done with the first notebook! 
+Although I keep forgetting the activation functions, losses and what not, so I'll create a cheatsheet for these.
 
+## Day 2.8
 I just played a bit with FCN models with adjustable number of layers. It was just the copy of the vibration sensor paper's model.
 Not much more than a for cycle in the model.
 
