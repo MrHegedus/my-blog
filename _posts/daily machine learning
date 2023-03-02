@@ -10,6 +10,11 @@ own "course".
 
 Anyway, first day, I'll write hopefully everyday for a while from now on.  
 
+## Trial 2, day 12
+
+I just played with different FCN architectures. Skips, number of layers. I re-discovered sklearn's good ol' train_test_split and robus scaler. 
+Other than these I ran a few small experiments with different loss fuctions, like MAE, MSE and Huber. So not much progress.
+
 ## Trial 2, day 11
 Okay, so until that point I used colab. Today I spent a bit of time with a visualstudio python application
 and I implemented a linear regression model that way. As with someone from discord summarized it
