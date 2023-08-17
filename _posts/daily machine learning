@@ -1,0 +1,177 @@
+So I saw a good idea on youtube, a challenge to learn machine learning for 66 consecutive days, just for 5 minutes.  
+
+Before I get into that. I mentioned a course before. 
+Well, the course had some advices about what kind of 
+people are good as data analyst, statistian and machine 
+learning engineer. I still think that the third option 
+fits me the best. But now I'm without courses. I could 
+go for the overlapping parts, but I focus on making my 
+own "course".  
+
+Anyway, first day, I'll write hopefully everyday for a while from now on.  
+
+## Trial 2, day 12
+
+I just played with different FCN architectures. Skips, number of layers. I re-discovered sklearn's good ol' train_test_split and robus scaler. 
+Other than these I ran a few small experiments with different loss fuctions, like MAE, MSE and Huber. So not much progress.
+
+## Trial 2, day 11
+Okay, so until that point I used colab. Today I spent a bit of time with a visualstudio python application
+and I implemented a linear regression model that way. As with someone from discord summarized it
+* colab/ jupyter notebook has the advantage of that you can run cells in different order and plot as much as you want.
+* VStudio has the advantage of better organization. 
+On the other hand the program stops at each plotted figure. And this too: print("length of an array: " + (str)(len(np.arange(1, 10, 1)))
+Yikes.
+
+After these I'm not entirely sure that I really want to use visualstudio.
+
+## Trial 2, day 10
+I haven't really done much today other than looking at the mrdbourke tensorflow github projects. What I really forgot about was the different loss function,
+activation function combos. I also typed in 1-2 models, but nothing groundbreaking. 
+
+## Trial 2, day 9
+I went back and I started to make the actual notebooks for linear and log regression. I forgot quite a bit, so I spent plenty of time
+with fixing mistakes. Anyway, first video is done with the first notebook! 
+Although I keep forgetting the activation functions, losses and what not, so I'll create a cheatsheet for these.
+
+## Day 2.8
+I just played a bit with FCN models with adjustable number of layers. It was just the copy of the vibration sensor paper's model.
+Not much more than a for cycle in the model.
+
+## Day 2.7
+I was just exploring my github today, I found my old notes, something I'll probably use a bit. 
+Other than that I have the last chaps of the ml engineering book printed out. I'll need to get practice in my routine
+again, I'm rusty.
+
+## Day 2.6
+I found out why my models didn't work. I remembered that I can just plug in 1d vector as training data. 
+It was true, but it has got updated, so I need some way to expand the dim of the data. Anyway, I just played
+with FCN models. I'll work on the mini-course tomorrow, I've got some serious backlog on the hands-on part of learning .
+
+## Day 2.5
+Some practice with functional api, just simple models.
+
+## Day 2.4
+Another chapter of the machine learning engineering book done, I'll finally have time for some hand on practice tomorrow.
+To be honest I've only done offline data analysis, online is something I'll try out a bit later, so most of the 7th chap. wasn't
+particularly useful for me.
+
+## Day 2.3
+I've been just going through another chapter for the machine learning engineering book.
+Other than that I really need some action items, to get the learning going.
+
+I talked with a few people and frankly speaking I don't really see much point in learning tensorflow's sequential API again.
+While I don't have specific problems I'll try to go with these goals:
+
+General problem statement of the first mini course:
+Learnto use tensorflow.
+Use the mlebook.com workflow until further notice.
+Use matplotlib to present your work.
+Try to focus on scalable solutions.
+
+With that out of the way
+Step one: 
+data: numpy array of numbers 
+algorithm with linear regression
+
+Step two: 
+data: boston (toy) dataset
+algorithm: logistic regression, one hot encoding
+cheatsheets: 
+problem classes
+what problems can be solved with machine learning
+activation functions, loss functions for different problem classes
+
+Step three:
+data: some kaggle classification dataset (preferably raw data)
+algorithm: fully connected neural network, adjustable num of layers, wrapper function
+basic hyper parameter tuning: grid, random search 
+
+Step four:
+data: some tf toy dataset
+algorithm: alexnet, vgg16, "toy" resnet, data  augmentation examples
+more efficient pipeline (mixed precision, gpu)
+
+Step five:
+Transfer learning, feature extraction and fine tuning.
+
+Step six:
+Model and layer subclassing.
+
+Step six:
+Deployment of model on something, probably an amazon cloud api.
+
+I'll probably extend, change these, but it should work for now. Step 1-3 is unlikely to change.
+
+## Day 2.2
+I spent an hour setting up OBS (video recorder) again. 
+My previous learning/online diary videos were quite good feedback, so in a bit different format I try that again.
+I'll make them with less talking, more like a stream. My new pc and mic is a huge help with that.
+I really need to figure out how to format these posts, before I write too much.
+
+Other than that I'll start the data analyst course again at 27th of Febr.
+My reasons are these overlapping fields with data engineering:
+* My data exploration skills are still lacking, what I can do I do too slowly.
+* My research skillset is also quite weak.
+* SQL in practice
+* Data visualization tools.
+* Professional communication.
+
+So, it's the same, what I said before.
+I'll spend 5 minutes with the data analyst course and 5 minutes of machine learning engineering every day from that day!
+
+In the meanwhile I plan to get to at least to the tensorflow functional APIs.
+
+## Day 2.1
+I skipped two days, so it's day one again. (Try: 2nd, day 1)
+I started to practice a bit with tensorflow's sequential api. 
+That's it for now.
+
+## Day 3
+I didn't have much time today, I highlighted the more useful parts in the first four chap. of the ml. eng. book.
+I'll create some cheat sheets from the summaries of the book on the weekend.
+
+## Day 2
+Not much today, I read the machine learning engineering book, up to the feature crafting chapter.
+I also went through some of my old google colab projects. I aactually understood most of it!
+
+Other than that I'll probably cut the chase and get a deep dive. 
+I'll go through the only scientific paper I worked before instead of creating a full fledged course. 
+The rest of the plans are the same. 
+
+Get to the point where I can re-create an architecture from a paper.
+Deploy the model
+SQL/ Data lake
+Some real data, I think
+
+## Day 1 - Humble beginnings, or re-re-re-re-opening 
+I picked up again Andriy Burkov'S "Machine Learning Engineering" book. 
+I had some experience with deeplearning and his book is kind of a 
+toolbox.  It has a simple, still very useful framework, it's full of 
+good practice advices and it covers the full life cycle of a model to
+give some perspective. 
+It also has a nice glossary, to refresh vocab of data science.  
+
+So to quote some ideas from the book , the part of creating a product: 
+in short 
+*decision making, product management 
+*data engineering 
+*prototype phase ml engineering 
+*statistics 
+*production phase ml engineering
+*reliability engineering  
+
+Other than that I was brainstorming about the content of my course. I'll use mrdbourke's course as basis and extend it here and there 
+This is just a draft, sort of  
+Stage 1
+dnn models - simple linear regression, parts of the model in python, tensorflow, pytorch, first iteration of the workflow,  
+different activation functions, non-linearity, first helper fuctions? python, tensorflow, pytorch, use of documentation 
+cnn models, parts, first famous architectures (alexnet, vgg16) lstm, gru, etc. use cases some paper here?   
+transfer learning - feature extraction, transfer learning
+
+some full fledged papers? when use sequential api and functional api?
+
+Stage 2 deploy a model, barebone website
+Stage 3 polished, presentable website?
+Stage 4 SQL/ data lake + previous ones
+Stage 5 real life data -> database/datalake -> model -> one retraining 
