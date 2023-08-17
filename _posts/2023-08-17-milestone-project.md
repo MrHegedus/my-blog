@@ -34,8 +34,8 @@ Constraints (subject to changes as the project develops):
 * Use a state of art model with the toy dataset.
 * Create a small custom dataset, and increase the number of labeled images until
 desired benchmarks are achieved.
-* Deploy the model to a cloud service.
-optional
+* Deploy the model to a cloud service.  
+  Optional)
 * Create a simple Android application that takes a photo and stores it in memory
 * Modify the app, so it uploads an image to the cloud service for inference
 * Modify the app, to get results back on the phone and display
